@@ -1,0 +1,204 @@
+/* start Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* End Font*/
+
+/* Start Body */
+body {
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, Helvetica, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 10px;
+    padding: 20px;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: rgb(151, 173, 110);
+}  
+.bg-red {
+    background-color: rgb(82, 219, 82);
+} 
+/* Start Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    widht: 90%;
+}
+/* Start Container */
+
+/* Start Logo*/
+.logo{
+    text-align: center;
+}
+/* End Logo*/
+
+/* Start Anchor / hyperlink */
+a:link,
+a:visited{
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+}
+/* End Anchor / hyperlink */
+
+/* Star menu primer*/
+.menu-primer ul{
+    background-color: rgb(61, 53, 53);
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li{
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a{
+    color:#ffffff;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover{
+    background-color: aliceblue;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-primer .activ{
+    background-color: #ffffff;
+    color: beige;
+    text-decoration: none;
+}
+/* End menu primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    letter-spacing: 1px
+}
+h1{
+    font-size: 28px;
+
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron{
+    background-color: bisque;
+    border: 1px solid #d1d5da;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px
+}
+.jumbotron h3{
+    font-size: 20px;
+    padding: 0 20px
+}
+/* Start Jumbotron */
+
+/*Start Main*/
+.main-home-one{
+    float: left;
+    width:49.5%;
+}
+.main-home-two{
+    float: right;
+    width: 49.5%;
+}
+.main-home-one .box-isi,
+.main-home-one .box-isi{
+    height: 140px;
+}
+/*Start Main*/
+
+/* Start Box */
+.box-heading {
+    background-color: #81adda;
+    border: 1px solid #8691a0;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4{
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #aeecef;
+    border-top: 0;
+    margin: 0px;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* start menu sekunder*/
+.menu-sekunder{
+    background-color:#73eec9de;
+    border-bottom: 1px solid #aeecef;
+    border-top: 1px solid #aeecef;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4{
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul{
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p{
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three{
+    float: left;
+}
+.menu-sekunder-one{
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three{
+    width: 30%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End menu sekunder*/
+
+/* Star copyright*/
+.copyright p{
+    font-size: 15px;
+}
+/* Star copyright*/
